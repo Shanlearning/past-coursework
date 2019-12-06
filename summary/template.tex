@@ -1,6 +1,5 @@
 \documentclass{article}
 
-
 \usepackage{arxiv}
 
 \usepackage[utf8]{inputenc} % allow utf-8 input
@@ -13,8 +12,9 @@
 \usepackage{microtype}      % microtypography
 \usepackage{lipsum}
 \usepackage{amsmath}
+\usepackage[UTF8]{ctex}
 
-\title{Use MCMC to do story generation}
+\title{Use MCMC to do Chinese story generation}
 
 \author{
   Shan Zhong\thanks{Shan is David's student)---\emph{not} for acknowledging funding agencies.} \\
@@ -43,16 +43,37 @@
 \maketitle
 
 \begin{abstract}
-This is a review of the papaer Toward Automated Story Generation with Markov Chain Monte Carlo Methods and Deep Neural Networks by Brent Harrison, Christopher Purdy, Mark O. Riedl. This paper tried to use both MCMC and Recurrent Neural Network to generate novel stories. I will apply both of the method to my own insurance data and check the performance. Furthermore, to see if I can modify and generated something on my own.
+When I was young, I want to be a writer, but later I found math is more interesting and ended up as a STAT major student. Nevertheless, Automated story generation is always my dream. Here this project focus on the use of MCMC methods and Recurrent Neural Network to generate novel stories.  From a favoriate author I like, I showed the technique to generate Chinese novel stories by sampling using conditional probabilities and acceptance criteria.
+
 \end{abstract}
-
-
 % keywords can be removed
 \keywords{Recurrent Neural Network \and Bayesian  \and MCMC}
 
+\section{introduction}
+This is a naive project to implement MCMC algorithm in a real world Chinese novel dataset.  The methods used in this project are word2vec embedding, dynamic programming to do Chinese characters segmentation, recurrent neural network on subject classification, and finally MCMC algorithm to generate Chinese novel.
 
-\section{Introduction}
-How do we represent meaning of words? One solution is to use WordNet(a lexical database for the English language), WordNet use human labors to find synoym sets.  Then we can know "good" is similar to "nice".  But in this way, we cannot calculate a numerical similarity for those words. 
+\section{Tokens}
+One thing Chinese characters are different from English is that between Chinese characters, there are no spaces. We can not easily seperate words by space. Thus I utlized a Jieba Dictionary that use dynamic programming to find the most probable combination of characters.\cite{jieba} Jieba is  a package developed to cut the sentence into a more accurate segmentations, then make words suitable for text analysis.
+Example : 
+
+我们去吃饭.  we go eat . Where 我们 means we, 去 means go, and 吃饭 means eat. The tokens are then "我们", "去" and " 吃饭".
+
+\section{Bigram}
+In a bigram setting, we can assume the distribution of tokens is conditional on the token previous to it(Naive idea, but for simplicity it is ok for an initial model). Thus the tokens becomes a Markov Chain. 
+
+\qquad  P(我们去吃饭)=P(我们)P(去|我们)P(吃饭|我们去)  $\approx$ P(我们)P(去|我们)P(吃饭|去) 
+
+There are also event representative models
+Martin(2017) use events to represent sentence by (subject , verb , object, modifier), every sentence in a story is reduced to a 4-word sentence. Sentence can be broken into mutiple events. 
+ \cite{Event representations for automated story generation}
+However, for the simplicity of the simulation, we just sample on the words directly. 
+
+\section{MCMC}
+After we sample a sentence, how do we know the accuracy? Here I first do clustering on the original novel story, then I run the fitted clustering on the generated text to decide whether I should keep the text or not. Then in this way, I hope the automatically generated story can be stick to one specific topic.
+
+\section{Word vectors}
+When we want to classify texts, we need some sort of similarity between those word tokens. Then words with the similar meaning can be clustered.
+How do we represent the meaning of words? One solution is to use WordNet(a lexical database for the English language), WordNet use human labors to find synoym sets.  Then we can know "good" is similar to "nice".  But in this way, we cannot calculate a numerical similarity for those words. 
 $$$$
 The other way is to use word vectors. One way to do so is use one hot encoding to encode words as vectors, then the length of the vector is the size of the vocabulary. For example, the word "you" , "me" and "him" can then be represented as
 
@@ -89,95 +110,34 @@ $$
 A better way to do so is to represent words in a fixed dimension. For example, we can have a dimension to represent tense , a dimension to represent plural, 
 and another dimension to represent negate prefix, etc....  We then let machine to learn the vectors itself.
 $$$$
-How does the prediction works? There is the fancy idea "A word’s meaning is given by the words that frequently appear close-by" ,we can build a model to predict occurrence of a word given another word is next to it. We can then use the posterior distribution to sample tokens and generate stories.
+How does the prediction works? There is the fancy idea "A word’s meaning is given by the words that frequently appear close-by" ,we can build a model to predict occurrence of a word given another word is next to it. We can then use the posterior distribution to sample tokens and generate stories.  Here I will try to implement the methods in Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean in their Efficient Estimation of Word Representations in Vector Space \cite {word2vec}. They represent each token by two vectors, one vector using the word surround to predict the token itself, one vector using itself to predict the word surround it.
 
-One way is to use nerual networks, the other is use Markov Chain
-
-\section{Bigram and MCMC}
-In a bigram setting, the aurthor assume the distribution of tokens is conditional on the word previous to it. 
- \cite{Event representations for automated story generation}
+\section{pretrained embedding and Recurrent Neural Network}
+For recognizing the generated text and thus decide the rejection probabilities, we utilized a pre trained layer of Chinese embedding to max performance and simplify problem. The second layer is a stack of two LSTM layer to decide the subject the whole paragraph is talking about. We set a probability line. If the fitted accuracy of generated story is below a threshold. Then the story will go several steps back to regenerate. For my project, theres is still some problem in the pretrained embedding and RNN part. 
 
 
+\paragraph{Implementation}
+I choiced my favorite novel "凡人修仙传" . I first seperate the whole novel by paragraphs. The story is of 7,927,322 words long. All the randomly generated story will be come from tokens from this novel, so the stories will be of similar style. 
+The detail of the implenebtation is also attached . The codes use python. 
 
-Markov Chain Monte Carlo Simulation
-\label{sec:headings}
-
-\lipsum[4] See Section \ref{sec:headings}.
-
-\subsection{Headings: second level}
-\lipsum[5]
-\begin{equation}
-\xi _{ij}(t)=P(x_{t}=i,x_{t+1}=j|y,v,w;\theta)= {\frac {\alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}{\sum _{i=1}^{N} \sum _{j=1}^{N} \alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}}
-\end{equation}
-
-\subsubsection{Headings: third level}
-\lipsum[6]
-
-\paragraph{Paragraph}
-\lipsum[7]
-
-\section{Examples of citations, figures, tables, references}
-\label{sec:others}
-\lipsum[8] \cite{kour2014real,kour2014fast} and see \cite{hadash2018estimate}.
-
-The documentation for \verb+natbib+ may be found at
-\begin{center}
-  \url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf}
-\end{center}
-Of note is the command \verb+\citet+, which produces citations
-appropriate for use in inline text.  For example,
-\begin{verbatim}
-   \citet{hasselmo} investigated\dots
-\end{verbatim}
-produces
-\begin{quote}
-  Hasselmo, et al.\ (1995) investigated\dots
-\end{quote}
-
-\begin{center}
-  \url{https://www.ctan.org/pkg/booktabs}
-\end{center}
-
-
-\subsection{Figures}
-\lipsum[10] 
-See Figure \ref{fig:fig1}. Here is how you add footnotes. \footnote{Sample of the first footnote.}
-\lipsum[11] 
-
-\begin{figure}
-  \centering
-  \fbox{\rule[-.5cm]{4cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
-  \caption{Sample figure caption.}
-  \label{fig:fig1}
-\end{figure}
-
-\subsection{Tables}
-\lipsum[12]
-See awesome Table~\ref{tab:table}.
 
 \begin{table}
- \caption{Sample table title}
+ \caption{Data summary}
   \centering
   \begin{tabular}{lll}
     \toprule
-    \multicolumn{2}{c}{Part}                   \\
+    \multicolumn{2}{c}{Original novel for sotry generation}                   \\
     \cmidrule(r){1-2}
-    Name     & Description     & Size ($\mu$m) \\
+    Name     & Description     & Size (counted Numbers) \\
     \midrule
-    Dendrite & Input terminal  & $\sim$100     \\
-    Axon     & Output terminal & $\sim$10      \\
-    Soma     & Cell body       & up to $10^6$  \\
+    Total Word     &Total number of characters in the novel&  7,927,322     \\
+    Total Token     &Total number of tokens in the novel &  4,509,402    \\
+    Unique Token     & Unique number of tokens in the novel, the one we use for sample&  80,046 \\ 
+    Unique Bigram Token     & Unique number of bigram tokens in the novel,& 1,032,157 \\ 
     \bottomrule
   \end{tabular}
   \label{tab:table}
 \end{table}
-
-\subsection{Lists}
-\begin{itemize}
-\item Lorem ipsum dolor sit amet
-\item consectetur adipiscing elit. 
-\item Aliquam dignissim blandit est, in dictum tortor gravida eget. In ac rutrum magna.
-\end{itemize}
 
 
 \bibliographystyle{unsrt}  
@@ -188,16 +148,19 @@ See awesome Table~\ref{tab:table}.
 %%% Comment out this section when you \bibliography{references} is enabled.
 \begin{thebibliography}{1}
 
+\bibitem{word2vec}
+Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
+\newblock Efficient Estimation of Word Representations in Vector Space
+\newblock In arXiv:1301.3781.
+
 \bibitem{Event representations for automated story generation}
 Martin, L. J.; Ammanabrolu, P.; Hancock, W.; Singh, S.; Harrison, B.; and Riedl, M. O. 
 \newblock Event representations for automated story generation with deep neural nets
 \newblock In arXiv:1706.01331.
 
-\bibitem{kour2014fast}
-George Kour and Raid Saabne.
-\newblock Fast classification of handwritten on-line arabic characters.
-\newblock In {\em Soft Computing and Pattern Recognition (SoCPaR), 2014 6th
-  International Conference of}, pages 312--318. IEEE, 2014.
+\bibitem{jieba}
+\newblock "Jieba" (Chinese for "to stutter") Chinese text segmentation: built to be the best Python Chinese word segmentation module.
+
 
 \bibitem{hadash2018estimate}
 Guy Hadash, Einat Kermany, Boaz Carmeli, Ofer Lavi, George Kour, and Alon
