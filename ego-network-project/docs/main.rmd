@@ -1,0 +1,185 @@
+---
+title: "facebook anonymized data"
+author: "~~~~"
+date: "April 18, 2018"
+output:
+  html_document:
+    df_print: paged
+---
+
+# the package we need is igraph( a powerful graphing package)
+#                        datatable(a package to help read data)
+```{r library}
+source("../lib/functions.R")
+packages.used <- c("data.table","igraph","factoextra","dplyr","ggplot2","mixedMem","cluster")
+
+# check packages that need to be installed.
+packages.needed <- setdiff(packages.used, intersect(installed.packages()[,1], packages.used))
+
+# install additional packages
+if(length(packages.needed) > 0) {
+  install.packages(packages.needed, dependencies = TRUE, repos = 'http://cran.us.r-project.org')
+}
+
+library("data.table");library(igraph);library(reshape2);library(factoextra)
+library("dplyr");library("ggplot2");library(mixedMem);library(cluster)
+```
+
+# This dataset consists of 'circles' (or 'friends lists') from Facebook. Facebook data was collected from survey participants using this Facebook app.
+
+# Facebook data has been anonymized by replacing the Facebook-internal ids for each user with a new value.
+
+# the FROM and TO are Undirected! (friends relation are bidirectional)
+```{r data}
+data<-data.table(read.table("../data/facebook_combined.txt"))
+colnames(data) <-c("FROM", "TO")
+# starting from 1
+data<-data+1
+dim(data)
+data[1:5]
+```
+
+
+# use igraph to plot the data, igraph is powerful, we can edit the graph in a way we like
+# to see how graph looks like
+```{r plot example1}
+example<-data
+example<-as.matrix(example)
+gr <-graph_from_edgelist(example,directed = FALSE)
+gr <- delete_vertices(gr,which(degree(gr)==0))   
+#E(gr)$color <- ("blue")
+V(gr)$color <- ("red")
+V(gr)$size <- 4
+
+# take time to plot!!!
+graph1<-plot(gr, vertex.color = adjustcolor("SkyBlue2", alpha.f = .5), 
+      vertex.label.color = adjustcolor("black", 0.2))
+
+```
+
+##1. Hierarchical clustering with Agglomerative-Euclidean-single-linkage clustering approach:
+
+# First we transfer the data into a matrix form:
+```{r transfer to matrix}
+matrixdata<-shan_zhong_matrix_data_transform(data)
+dim(matrixdata)
+matrixdata[1:12,1:12]
+```
+
+#Then we calculate the distance for each user
+
+#Let's start to look at user 1, one of the 10 people manually identified all the circles to which his friends belonged
+
+#User1 are friends of user2 to user348
+#The computation time do not vary much
+
+```{r compare time for distance}
+# since the computation time do not make much difference, we choose euclidean method
+system.time(dist(matrixdata[1:348,1:348],method="manhattan"))
+system.time(dist(matrixdata[1:348,1:348],method="euclidean"))
+system.time(dist(matrixdata[1:348,1:348],method="maximum"))
+```
+
+#Now we calculate the distance for each circle, there are many method to define the distance between two circles:
+
+#Single : Minimum over all pairs of users these two circle.
+
+#Complete : Maximum over all pairs of users these two circle.
+
+#Average : Average over all pairs of users these two circle.
+
+```{r compare for linkage}
+# since the computation time do not make much difference, we choose euclidean method
+
+distance<-dist(matrixdata[1:348,1:348],method="euclidean")
+
+single<-hclust(distance,method="single")
+complete<-hclust(distance,method="complete")
+average<-hclust(distance,method="average")
+
+plot(single)
+plot(complete)
+plot(average)
+
+# Optimal number of circles, for hierarchical modeling(elbow method, independent of previous methods we choose):
+
+fviz_nbclust(matrixdata[1:348,1:348],FUN=hcut,method= "wss",k.max= 25)
+
+fviz_nbclust(matrixdata[1:348,1:348],FUN=hcut,method= "silhouette",k.max= 25)
+
+# gap_stat<-clusGap(matrixdata[1:346,1:346], FUN = hcut, nstart = 25, K.max = 25, B=50)
+# fviz_nbclust(gap_stat)
+
+```
+
+## model 2, structural cohesion, use package from igraph
+# structural cohesion for the circle of user 1, all friends of user 1 are shown in the graph!
+```{r plot Structural cohesion}
+user1<-data[FROM %in% 1:348 & TO %in% 1:348]
+user1<-as.matrix(user1)
+gr <-graph_from_edgelist(user1, directed = FALSE)
+
+gr <- delete_vertices(gr,which(degree(gr)==0))                      
+                      
+grBlocks <- cohesive_blocks(gr)
+
+E(gr)$color <- ("blue")
+V(gr)$color <- ("red")
+V(gr)$size <- 4
+
+# take time to plot!!!
+plot(grBlocks, gr)
+```
+
+
+# plot the matrix data
+```{r plot data matrix}
+data1<-shan_zhong_data_forggplot2(data[FROM %in% 1:348 & TO %in% 1:348])
+
+plot<-ggplot(data1,aes(x =FROM, y = TO))+
+  geom_raster()+theme_bw()+coord_flip()+
+  scale_x_reverse()+
+  theme(aspect.ratio = 1, legend.position="none")
+#plot
+```
+
+### Mix membership model:
+
+```{r mixmembership}
+
+# we choose 9 
+K<-9
+
+initial<-shan_zhong_data_formixMem(matrixdata[1:348,1:348],K)
+
+computeELBO(initial)
+
+st = proc.time()
+#printStatus 1 indicates that status updates will be printed
+# printMod 25 indicates that status updates will only be printed ever 25th step
+
+out <- mmVarFit(initial, printStatus = 1, printMod = 25)
+
+end <- proc.time()
+
+computeELBO(out)
+
+end-st
+
+```
+
+### visualize membership model
+```{r plot Mix membership}
+load("../output/out.Rdata")
+ plot_data<-shan_zhong_mixMemplot(out$theta,data[FROM %in% 1:348 & TO %in% 1:348])
+ plot_data2<-shan_zhong_mixMemplot_order(out$theta,data[FROM %in% 1:348 & TO %in% 1:348])
+ 
+ggplot(plot_data, aes(x = from, y = to, fill = group)) +
+  geom_raster() +coord_flip()+ theme_bw() +
+  theme(legend.position = "none")
+
+ggplot(plot_data2, aes(x = from, y = to, fill = group)) +
+  geom_raster() +coord_flip()+ theme_bw() +
+  theme(legend.position = "none")
+ 
+```
