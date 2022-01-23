@@ -3,7 +3,6 @@ Graduate projects:
 
 Highlight:
 
-2020 Spring, Text-news-stock-prediction-project: https://github.com/Shanlearning/past-coursework/blob/master/stock-prediction-project/RNN-LSTM-LEARNING-AND-NEWS-SENTIMENT-ON-SP500-STOCK-MARKET-PREDICTION.pdf
 
 2018 Spring, ego-network-project: https://github.com/Shanlearning/past-coursework/tree/master/ego-network-project#project-description
 
