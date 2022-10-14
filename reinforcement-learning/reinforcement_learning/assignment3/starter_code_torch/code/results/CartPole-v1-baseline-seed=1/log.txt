@@ -1,0 +1,875 @@
+2022-04-17 14:04:45,628:INFO: Average reward: 24.51 +/- 1.71
+2022-04-17 14:04:47,053:INFO: Average reward: 26.28 +/- 1.60
+2022-04-17 14:04:48,478:INFO: Average reward: 37.40 +/- 3.77
+2022-04-17 14:04:49,902:INFO: Average reward: 55.57 +/- 5.70
+2022-04-17 14:04:51,327:INFO: Average reward: 63.35 +/- 6.77
+2022-04-17 14:04:52,757:INFO: Average reward: 70.61 +/- 7.00
+2022-04-17 14:04:54,179:INFO: Average reward: 103.11 +/- 6.67
+2022-04-17 14:04:55,605:INFO: Average reward: 128.00 +/- 9.68
+2022-04-17 14:04:57,076:INFO: Average reward: 148.77 +/- 10.77
+2022-04-17 14:04:58,558:INFO: Average reward: 164.83 +/- 9.12
+2022-04-17 14:05:00,020:INFO: Average reward: 134.86 +/- 7.84
+2022-04-17 14:05:01,476:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:02,942:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:04,411:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:05,892:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:07,351:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:08,776:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:10,207:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:11,652:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:13,106:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:14,559:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:16,038:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:17,520:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:18,991:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:20,467:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:21,924:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:23,380:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:24,818:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:26,247:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:27,682:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:29,118:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:30,597:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:32,076:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:33,541:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:35,001:INFO: Average reward: 199.80 +/- 0.19
+2022-04-17 14:05:36,462:INFO: Average reward: 189.80 +/- 2.33
+2022-04-17 14:05:37,939:INFO: Average reward: 183.90 +/- 2.74
+2022-04-17 14:05:39,396:INFO: Average reward: 184.60 +/- 3.40
+2022-04-17 14:05:40,859:INFO: Average reward: 192.90 +/- 2.17
+2022-04-17 14:05:42,297:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:43,738:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:45,183:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:46,629:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:48,087:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:49,526:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:05:50,965:INFO: Average reward: 199.90 +/- 0.09
+2022-04-17 14:05:52,409:INFO: Average reward: 152.67 +/- 18.01
+2022-04-17 14:05:53,866:INFO: Average reward: 156.92 +/- 12.68
+2022-04-17 14:05:55,341:INFO: Average reward: 186.20 +/- 1.72
+2022-04-17 14:05:56,829:INFO: Average reward: 190.30 +/- 1.87
+2022-04-17 14:05:58,258:INFO: Average reward: 184.80 +/- 1.98
+2022-04-17 14:05:59,681:INFO: Average reward: 190.50 +/- 1.67
+2022-04-17 14:06:01,107:INFO: Average reward: 197.70 +/- 1.32
+2022-04-17 14:06:02,531:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:03,953:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:05,378:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:06,800:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:08,224:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:09,645:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:11,067:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:12,495:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:13,917:INFO: Average reward: 199.40 +/- 0.57
+2022-04-17 14:06:15,341:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:16,765:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:18,187:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:19,609:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:21,032:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:22,456:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:23,879:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:25,303:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:26,725:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:28,146:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:29,574:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:30,997:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:32,419:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:33,842:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:35,265:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:36,688:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:38,111:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:39,535:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:40,957:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:42,378:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:43,808:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:45,248:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:46,668:INFO: Average reward: 194.50 +/- 5.01
+2022-04-17 14:06:48,087:INFO: Average reward: 197.30 +/- 2.56
+2022-04-17 14:06:49,507:INFO: Average reward: 108.83 +/- 15.48
+2022-04-17 14:06:50,916:INFO: Average reward: 10.73 +/- 0.37
+2022-04-17 14:06:52,327:INFO: Average reward: 17.44 +/- 1.29
+2022-04-17 14:06:53,751:INFO: Average reward: 168.36 +/- 20.28
+2022-04-17 14:06:55,175:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:56,600:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:58,020:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:06:59,440:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:00,862:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:02,286:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:03,711:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:05,137:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:06,559:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:07,977:INFO: Average reward: 200.00 +/- 0.00
+2022-04-17 14:07:07,978:INFO: - Training done.
+2022-04-17 14:07:07,995:DEBUG: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2022-04-17 14:07:07,995:DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,996:DEBUG: findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,996:DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:07,996:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:07,997:DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,997:DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:07,997:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2022-04-17 14:07:07,998:DEBUG: findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,998:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2022-04-17 14:07:07,998:DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,998:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:07,999:DEBUG: findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,999:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:07,999:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,000:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,000:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,000:DEBUG: findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,001:DEBUG: findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,001:DEBUG: findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,001:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2022-04-17 14:07:08,002:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,002:DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,002:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,002:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,003:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,003:DEBUG: findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,003:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2022-04-17 14:07:08,004:DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,004:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,005:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,005:DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,005:DEBUG: findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,006:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2022-04-17 14:07:08,006:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,006:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,007:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2022-04-17 14:07:08,007:DEBUG: findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,007:DEBUG: findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,008:DEBUG: findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,008:DEBUG: findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,008:DEBUG: findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,009:DEBUG: findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,009:DEBUG: findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,009:DEBUG: findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,010:DEBUG: findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,010:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,010:DEBUG: findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,010:DEBUG: findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,011:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,011:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,011:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,012:DEBUG: findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,012:DEBUG: findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,012:DEBUG: findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,013:DEBUG: findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,013:DEBUG: findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,013:DEBUG: findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,013:DEBUG: findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,014:DEBUG: findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,014:DEBUG: findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,014:DEBUG: findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,015:DEBUG: findfont: score(<Font 'icomoon' (iqiyi_logov6.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,015:DEBUG: findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,015:DEBUG: findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,016:DEBUG: findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,016:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,016:DEBUG: findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,017:DEBUG: findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,017:DEBUG: findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,017:DEBUG: findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,018:DEBUG: findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,018:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,018:DEBUG: findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,019:DEBUG: findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,019:DEBUG: findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,019:DEBUG: findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,020:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+2022-04-17 14:07:08,020:DEBUG: findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,020:DEBUG: findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,021:DEBUG: findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,032:DEBUG: findfont: score(<Font 'DengXian' (Deng.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,033:DEBUG: findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,033:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,034:DEBUG: findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,034:DEBUG: findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,034:DEBUG: findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,034:DEBUG: findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,035:DEBUG: findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,035:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,035:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,036:DEBUG: findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,036:DEBUG: findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,036:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,037:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,037:DEBUG: findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,037:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,038:DEBUG: findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,038:DEBUG: findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+2022-04-17 14:07:08,038:DEBUG: findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,038:DEBUG: findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,039:DEBUG: findfont: score(<Font 'SimHei' (simhei.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,039:DEBUG: findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,039:DEBUG: findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+2022-04-17 14:07:08,040:DEBUG: findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,040:DEBUG: findfont: score(<Font 'KaiTi' (simkai.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,040:DEBUG: findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,041:DEBUG: findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,041:DEBUG: findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,041:DEBUG: findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,042:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,042:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,042:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,043:DEBUG: findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,043:DEBUG: findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,043:DEBUG: findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,044:DEBUG: findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,044:DEBUG: findfont: score(<Font 'Leelawadee' (LEELAWAD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,044:DEBUG: findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,045:DEBUG: findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,045:DEBUG: findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,045:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,046:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,046:DEBUG: findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+2022-04-17 14:07:08,046:DEBUG: findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,046:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,047:DEBUG: findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+2022-04-17 14:07:08,047:DEBUG: findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,047:DEBUG: findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,048:DEBUG: findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,048:DEBUG: findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,048:DEBUG: findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,049:DEBUG: findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,049:DEBUG: findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,049:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,049:DEBUG: findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+2022-04-17 14:07:08,050:DEBUG: findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+2022-04-17 14:07:08,050:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,050:DEBUG: findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,051:DEBUG: findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+2022-04-17 14:07:08,051:DEBUG: findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,051:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,052:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,052:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,052:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,053:DEBUG: findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,053:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,053:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,054:DEBUG: findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,054:DEBUG: findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,054:DEBUG: findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,054:DEBUG: findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,055:DEBUG: findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,055:DEBUG: findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,055:DEBUG: findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,056:DEBUG: findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,056:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,056:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,056:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,057:DEBUG: findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,057:DEBUG: findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,058:DEBUG: findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,058:DEBUG: findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,058:DEBUG: findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,058:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,059:DEBUG: findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,059:DEBUG: findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,059:DEBUG: findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,060:DEBUG: findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,060:DEBUG: findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,060:DEBUG: findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,061:DEBUG: findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,061:DEBUG: findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+2022-04-17 14:07:08,061:DEBUG: findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,062:DEBUG: findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+2022-04-17 14:07:08,062:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,062:DEBUG: findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,062:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,063:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,063:DEBUG: findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,063:DEBUG: findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,064:DEBUG: findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,064:DEBUG: findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+2022-04-17 14:07:08,065:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,065:DEBUG: findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,066:DEBUG: findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,066:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,066:DEBUG: findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,067:DEBUG: findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,067:DEBUG: findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,067:DEBUG: findfont: score(<Font 'Microsoft Uighur' (MSUIGHUR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,068:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,068:DEBUG: findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,068:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,069:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,069:DEBUG: findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,069:DEBUG: findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,069:DEBUG: findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,070:DEBUG: findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,070:DEBUG: findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,070:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,071:DEBUG: findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,071:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+2022-04-17 14:07:08,071:DEBUG: findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,072:DEBUG: findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,072:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,072:DEBUG: findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,072:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,073:DEBUG: findfont: score(<Font 'NumberOnly' (NumberOnly.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,073:DEBUG: findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,073:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,074:DEBUG: findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,074:DEBUG: findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,074:DEBUG: findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,074:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,075:DEBUG: findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,075:DEBUG: findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,075:DEBUG: findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,076:DEBUG: findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,076:DEBUG: findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,076:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,077:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,077:DEBUG: findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,077:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,077:DEBUG: findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,078:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,078:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,078:DEBUG: findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,079:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,079:DEBUG: findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,079:DEBUG: findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,080:DEBUG: findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,080:DEBUG: findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,080:DEBUG: findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,081:DEBUG: findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,081:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,081:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+2022-04-17 14:07:08,082:DEBUG: findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,082:DEBUG: findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,082:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,082:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,083:DEBUG: findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,083:DEBUG: findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,083:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,084:DEBUG: findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,084:DEBUG: findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,084:DEBUG: findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,084:DEBUG: findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,085:DEBUG: findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,085:DEBUG: findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,086:DEBUG: findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,086:DEBUG: findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,086:DEBUG: findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,087:DEBUG: findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,087:DEBUG: findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,087:DEBUG: findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,087:DEBUG: findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,088:DEBUG: findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,088:DEBUG: findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,088:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+2022-04-17 14:07:08,089:DEBUG: findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,089:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,089:DEBUG: findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,090:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,090:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,090:DEBUG: findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+2022-04-17 14:07:08,090:DEBUG: findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,091:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+2022-04-17 14:07:08,091:DEBUG: findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,091:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,092:DEBUG: findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,092:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,092:DEBUG: findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,093:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,093:DEBUG: findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+2022-04-17 14:07:08,093:DEBUG: findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,094:DEBUG: findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,094:DEBUG: findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,094:DEBUG: findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,094:DEBUG: findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,095:DEBUG: findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,095:DEBUG: findfont: score(<Font 'FangSong' (simfang.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,095:DEBUG: findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,096:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,096:DEBUG: findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,096:DEBUG: findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,097:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,097:DEBUG: findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,097:DEBUG: findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,097:DEBUG: findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,098:DEBUG: findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,098:DEBUG: findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,098:DEBUG: findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,099:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,099:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,099:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,100:DEBUG: findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,100:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,101:DEBUG: findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,101:DEBUG: findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,101:DEBUG: findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+2022-04-17 14:07:08,102:DEBUG: findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,102:DEBUG: findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,102:DEBUG: findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,103:DEBUG: findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,103:DEBUG: findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,103:DEBUG: findfont: score(<Font 'DengXian' (Dengb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,104:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,104:DEBUG: findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,104:DEBUG: findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,105:DEBUG: findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+2022-04-17 14:07:08,105:DEBUG: findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,106:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,106:DEBUG: findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,106:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,107:DEBUG: findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,107:DEBUG: findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,107:DEBUG: findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,108:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,108:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,109:DEBUG: findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,109:DEBUG: findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,109:DEBUG: findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,110:DEBUG: findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+2022-04-17 14:07:08,110:DEBUG: findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,110:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,111:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,111:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,112:DEBUG: findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,112:DEBUG: findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,113:DEBUG: findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+2022-04-17 14:07:08,113:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,114:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,114:DEBUG: findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,114:DEBUG: findfont: score(<Font 'Leelawadee' (LEELAWDB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,114:DEBUG: findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,115:DEBUG: findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,115:DEBUG: findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,115:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,116:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,116:DEBUG: findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,116:DEBUG: findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,117:DEBUG: findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,117:DEBUG: findfont: score(<Font 'DengXian' (Dengl.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,117:DEBUG: findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,117:DEBUG: findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,118:DEBUG: findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,118:DEBUG: findfont: score(<Font 'Microsoft Uighur' (MSUIGHUB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,118:DEBUG: findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,119:DEBUG: findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+2022-04-17 14:07:08,119:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,119:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+2022-04-17 14:07:08,119:DEBUG: findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,120:DEBUG: findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,120:DEBUG: findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,120:DEBUG: findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,120:DEBUG: findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,121:DEBUG: findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,121:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,121:DEBUG: findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,122:DEBUG: findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,122:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,122:DEBUG: findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,122:DEBUG: findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,123:DEBUG: findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+2022-04-17 14:07:08,123:DEBUG: findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,123:DEBUG: findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,124:DEBUG: findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,124:DEBUG: findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,124:DEBUG: findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,124:DEBUG: findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,125:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+2022-04-17 14:07:08,125:DEBUG: findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,125:DEBUG: findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+2022-04-17 14:07:08,126:DEBUG: findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,126:DEBUG: findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,126:DEBUG: findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,127:DEBUG: findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,127:DEBUG: findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,127:DEBUG: findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,128:DEBUG: findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,128:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,128:DEBUG: findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,129:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+2022-04-17 14:07:08,129:DEBUG: findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,129:DEBUG: findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,129:DEBUG: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\zhong\\anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2022-04-17 14:07:08,144:DEBUG: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2022-04-17 14:07:08,145:DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,145:DEBUG: findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,146:DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,146:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,147:DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,147:DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,147:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2022-04-17 14:07:08,148:DEBUG: findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,148:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2022-04-17 14:07:08,148:DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,149:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,149:DEBUG: findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,149:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,149:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,150:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,150:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,150:DEBUG: findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,151:DEBUG: findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,151:DEBUG: findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,151:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2022-04-17 14:07:08,152:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,152:DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,152:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,153:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,153:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,153:DEBUG: findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,153:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2022-04-17 14:07:08,154:DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,154:DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,154:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,155:DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,155:DEBUG: findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,155:DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2022-04-17 14:07:08,156:DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,156:DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,156:DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2022-04-17 14:07:08,157:DEBUG: findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,157:DEBUG: findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,157:DEBUG: findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,158:DEBUG: findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,158:DEBUG: findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,158:DEBUG: findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,158:DEBUG: findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,159:DEBUG: findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,159:DEBUG: findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,159:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,160:DEBUG: findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,160:DEBUG: findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,160:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,161:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,161:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,161:DEBUG: findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,162:DEBUG: findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,162:DEBUG: findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,162:DEBUG: findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,163:DEBUG: findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,163:DEBUG: findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,163:DEBUG: findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,163:DEBUG: findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,164:DEBUG: findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,164:DEBUG: findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,165:DEBUG: findfont: score(<Font 'icomoon' (iqiyi_logov6.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,165:DEBUG: findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,165:DEBUG: findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,166:DEBUG: findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,166:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,167:DEBUG: findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,167:DEBUG: findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,167:DEBUG: findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,167:DEBUG: findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,168:DEBUG: findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,168:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,168:DEBUG: findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,169:DEBUG: findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,169:DEBUG: findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,169:DEBUG: findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,169:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+2022-04-17 14:07:08,170:DEBUG: findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,170:DEBUG: findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,171:DEBUG: findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,175:DEBUG: findfont: score(<Font 'DengXian' (Deng.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,176:DEBUG: findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,176:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,177:DEBUG: findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,177:DEBUG: findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,177:DEBUG: findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,178:DEBUG: findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,178:DEBUG: findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,178:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,179:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,179:DEBUG: findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,179:DEBUG: findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,180:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,180:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,180:DEBUG: findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,181:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,181:DEBUG: findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,181:DEBUG: findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+2022-04-17 14:07:08,181:DEBUG: findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,182:DEBUG: findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,182:DEBUG: findfont: score(<Font 'SimHei' (simhei.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,183:DEBUG: findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,183:DEBUG: findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+2022-04-17 14:07:08,183:DEBUG: findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,184:DEBUG: findfont: score(<Font 'KaiTi' (simkai.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,184:DEBUG: findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,184:DEBUG: findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,184:DEBUG: findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,185:DEBUG: findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,185:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,185:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,186:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,186:DEBUG: findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,186:DEBUG: findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,187:DEBUG: findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,187:DEBUG: findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,187:DEBUG: findfont: score(<Font 'Leelawadee' (LEELAWAD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,187:DEBUG: findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,188:DEBUG: findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,188:DEBUG: findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,188:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,189:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,189:DEBUG: findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+2022-04-17 14:07:08,189:DEBUG: findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,190:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,190:DEBUG: findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+2022-04-17 14:07:08,190:DEBUG: findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,191:DEBUG: findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,191:DEBUG: findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,191:DEBUG: findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,192:DEBUG: findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,192:DEBUG: findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,192:DEBUG: findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,193:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,193:DEBUG: findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+2022-04-17 14:07:08,193:DEBUG: findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+2022-04-17 14:07:08,194:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,194:DEBUG: findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,194:DEBUG: findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+2022-04-17 14:07:08,195:DEBUG: findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,195:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,195:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,195:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,196:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,196:DEBUG: findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,196:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,197:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,197:DEBUG: findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,197:DEBUG: findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,198:DEBUG: findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,198:DEBUG: findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,198:DEBUG: findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,199:DEBUG: findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,199:DEBUG: findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,199:DEBUG: findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,199:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,200:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,200:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,200:DEBUG: findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,201:DEBUG: findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,201:DEBUG: findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,201:DEBUG: findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,202:DEBUG: findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,202:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,202:DEBUG: findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,203:DEBUG: findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,203:DEBUG: findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,203:DEBUG: findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,203:DEBUG: findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,204:DEBUG: findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,204:DEBUG: findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,204:DEBUG: findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+2022-04-17 14:07:08,205:DEBUG: findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,205:DEBUG: findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+2022-04-17 14:07:08,205:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,205:DEBUG: findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,206:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,206:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,206:DEBUG: findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,207:DEBUG: findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,207:DEBUG: findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,207:DEBUG: findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+2022-04-17 14:07:08,208:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,208:DEBUG: findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,208:DEBUG: findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,209:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,209:DEBUG: findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,209:DEBUG: findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,210:DEBUG: findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,210:DEBUG: findfont: score(<Font 'Microsoft Uighur' (MSUIGHUR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,210:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,211:DEBUG: findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,211:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,211:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,211:DEBUG: findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,212:DEBUG: findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,212:DEBUG: findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,212:DEBUG: findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,213:DEBUG: findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,213:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,213:DEBUG: findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,213:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+2022-04-17 14:07:08,214:DEBUG: findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,214:DEBUG: findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,214:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,215:DEBUG: findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,215:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,215:DEBUG: findfont: score(<Font 'NumberOnly' (NumberOnly.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,216:DEBUG: findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,216:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,216:DEBUG: findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,217:DEBUG: findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,217:DEBUG: findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,217:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,218:DEBUG: findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,218:DEBUG: findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,218:DEBUG: findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,218:DEBUG: findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,219:DEBUG: findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,219:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,219:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,220:DEBUG: findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,220:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,220:DEBUG: findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,221:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,221:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,221:DEBUG: findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,221:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,222:DEBUG: findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,222:DEBUG: findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,222:DEBUG: findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,223:DEBUG: findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,223:DEBUG: findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,223:DEBUG: findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,224:DEBUG: findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,224:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+2022-04-17 14:07:08,224:DEBUG: findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,225:DEBUG: findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,225:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,225:DEBUG: findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,226:DEBUG: findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,226:DEBUG: findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,226:DEBUG: findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,227:DEBUG: findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,227:DEBUG: findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,227:DEBUG: findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,227:DEBUG: findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,228:DEBUG: findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,228:DEBUG: findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,228:DEBUG: findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,229:DEBUG: findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,229:DEBUG: findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,229:DEBUG: findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,230:DEBUG: findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,230:DEBUG: findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,230:DEBUG: findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,231:DEBUG: findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,231:DEBUG: findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,231:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+2022-04-17 14:07:08,231:DEBUG: findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,232:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,232:DEBUG: findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,233:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,233:DEBUG: findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,233:DEBUG: findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+2022-04-17 14:07:08,233:DEBUG: findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,234:DEBUG: findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+2022-04-17 14:07:08,234:DEBUG: findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,234:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,235:DEBUG: findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,235:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+2022-04-17 14:07:08,235:DEBUG: findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,236:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,236:DEBUG: findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+2022-04-17 14:07:08,236:DEBUG: findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,236:DEBUG: findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,237:DEBUG: findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,237:DEBUG: findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,237:DEBUG: findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,238:DEBUG: findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,238:DEBUG: findfont: score(<Font 'FangSong' (simfang.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,238:DEBUG: findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,239:DEBUG: findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,239:DEBUG: findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,239:DEBUG: findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,240:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,240:DEBUG: findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,240:DEBUG: findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,241:DEBUG: findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,241:DEBUG: findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,241:DEBUG: findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,241:DEBUG: findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,242:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,242:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,242:DEBUG: findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,243:DEBUG: findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,243:DEBUG: findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,244:DEBUG: findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,244:DEBUG: findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,244:DEBUG: findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+2022-04-17 14:07:08,244:DEBUG: findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,245:DEBUG: findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,245:DEBUG: findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,245:DEBUG: findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,245:DEBUG: findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,246:DEBUG: findfont: score(<Font 'DengXian' (Dengb.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,246:DEBUG: findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,246:DEBUG: findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,247:DEBUG: findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,247:DEBUG: findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+2022-04-17 14:07:08,247:DEBUG: findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,247:DEBUG: findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,248:DEBUG: findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+2022-04-17 14:07:08,248:DEBUG: findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,248:DEBUG: findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,248:DEBUG: findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,249:DEBUG: findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,249:DEBUG: findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,265:DEBUG: findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,266:DEBUG: findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,266:DEBUG: findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,267:DEBUG: findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,267:DEBUG: findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+2022-04-17 14:07:08,267:DEBUG: findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,268:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,268:DEBUG: findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,268:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,269:DEBUG: findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,269:DEBUG: findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,269:DEBUG: findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+2022-04-17 14:07:08,270:DEBUG: findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,270:DEBUG: findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,270:DEBUG: findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,270:DEBUG: findfont: score(<Font 'Leelawadee' (LEELAWDB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,271:DEBUG: findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,271:DEBUG: findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,272:DEBUG: findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,272:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+2022-04-17 14:07:08,272:DEBUG: findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,273:DEBUG: findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,273:DEBUG: findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,273:DEBUG: findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,273:DEBUG: findfont: score(<Font 'DengXian' (Dengl.ttf) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,274:DEBUG: findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,274:DEBUG: findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,275:DEBUG: findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,275:DEBUG: findfont: score(<Font 'Microsoft Uighur' (MSUIGHUB.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,275:DEBUG: findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,275:DEBUG: findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+2022-04-17 14:07:08,276:DEBUG: findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+2022-04-17 14:07:08,276:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+2022-04-17 14:07:08,276:DEBUG: findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,277:DEBUG: findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,277:DEBUG: findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+2022-04-17 14:07:08,277:DEBUG: findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,278:DEBUG: findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,278:DEBUG: findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,278:DEBUG: findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,279:DEBUG: findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,279:DEBUG: findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,279:DEBUG: findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,279:DEBUG: findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,280:DEBUG: findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+2022-04-17 14:07:08,280:DEBUG: findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+2022-04-17 14:07:08,280:DEBUG: findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,281:DEBUG: findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,281:DEBUG: findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,281:DEBUG: findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,282:DEBUG: findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,282:DEBUG: findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,282:DEBUG: findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+2022-04-17 14:07:08,283:DEBUG: findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+2022-04-17 14:07:08,283:DEBUG: findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+2022-04-17 14:07:08,283:DEBUG: findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,283:DEBUG: findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,284:DEBUG: findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,284:DEBUG: findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,284:DEBUG: findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+2022-04-17 14:07:08,285:DEBUG: findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,285:DEBUG: findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+2022-04-17 14:07:08,285:DEBUG: findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+2022-04-17 14:07:08,285:DEBUG: findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,286:DEBUG: findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+2022-04-17 14:07:08,286:DEBUG: findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+2022-04-17 14:07:08,286:DEBUG: findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+2022-04-17 14:07:08,287:DEBUG: findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\zhong\\anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.

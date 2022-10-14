@@ -1,0 +1,336 @@
+\documentclass[11pt]{article}
+
+% Page format
+\usepackage[margin=1in]{geometry}
+
+% Math packages and custom commands 
+\usepackage{framed, tikz}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools,amsthm}
+\usepackage{enumitem,amssymb}
+\usepackage{hyperref}
+\definecolor{shadecolor}{gray}{0.9}
+
+
+\newtheoremstyle{case}{}{}{}{}{}{:}{}{}
+\theoremstyle{case}
+\newtheorem{case}{Case}
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{\text{Var}}
+\DeclareMathOperator{\Cov}{\text{Cov}}
+\newcommand{\bvec}[1]{\mathbf{#1}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\norm}[2][2]{\| #2\|}
+\newcommand{\note}[1]{\noindent{[\textbf{NOTE:} #1]}}
+\newcommand{\hint}[1]{\noindent{[\textbf{HINT:} #1]}}
+\newcommand{\recall}[1]{\noindent{[\textbf{RECALL:} #1]}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\begin{document}
+
+\begin{center}
+{\Large CSCE 790-003, Spring 2022 \\ Assignment 1}
+
+\begin{tabular}{rl}
+Username: & [zhongs@email.sc.edu] \\
+Name: & [Shan Zhong] \\
+\end{tabular}
+\end{center}
+By turning in this assignment, I agree by the honor code of USC Columbia.
+
+\paragraph{Submission.}
+You need to submit the following files to Blackboard:
+\begin{itemize}
+    \item A pdf file named as assignment1\_$\langle username \rangle$.pdf, where you replace $\langle username \rangle$ with your email username. This pdf file contains your anwsers to the written problems, including problems 1, 2, 3, and 4(c). 
+    You can either edit the assignment1.tex file to fill in your answers and submit the pdf file generated from the edited tex file, or scan and submit your hand-written answers.
+    \item A zip file named as assignment1\_$\langle username \rangle$.zip, where you replace $\langle username \rangle$ with your email username. This zip file contains a single file specified in problem 4.
+\end{itemize}
+
+\section{Bellman Optimality Operator Is a Contraction [25pt]}
+Recall the definition of the Bellman optimality operator $T^*: \mathbb{R}^{|S|} \to \mathbb{R}^{|S|}$, where $|S|$ is the number of states in state space $S$:
+\begin{align*}
+    (T^*V)(s) := \max_a R(s,a) + \gamma \sum_{s'}P(s'|s,a)V(s')
+\end{align*}
+for each $s\in S$.
+Suppose $\gamma<1$.
+Prove that $T^*$ is a $\gamma$-contraction in the infinity norm $\norm{\cdot}_\infty$, i.e. for any $V, V'\in\mathbb{R}^{|S|}$
+\begin{align*}
+    \norm{T^*V'-T^*V}_\infty\leq\gamma\norm{V'-V}_\infty
+\end{align*}
+where $\norm{V}_\infty := \max_{s \in S} |V(s)| $.
+
+\underline{Hint:} Since it is the infinity norm, we need to show the inequality holds for each $s\in S$, i.e. $T^*V'(s)-T^*V(s) \leq  \gamma\norm{V'-V}_\infty$.
+For any $s\in S$.
+Let
+\begin{align*}
+    a^*_s = \argmax_a R(s,a) + \gamma \sum_{s'}P(s'|s,a)V(s')\\
+    a'^*_s = \argmax_a R(s,a) + \gamma \sum_{s'}P(s'|s,a)V'(s')
+\end{align*}
+be the actions selected by the $T^*$ operator for $V$ and $V'$, respectively.
+
+If $(T^*V')(s) \geq (T^*V)(s)$, try to show that the following holds:
+\begin{align*}
+    |(T^*V')(s)-(T^*V)(s)|
+    =& (T^*V')(s) - (T^*V)(s) \qquad \text{(Since we assumed $(T^*V')(s) \geq (T^*V)(s)$)} \\
+    =& R(s,a'^*_s) + \gamma \sum_{s'}P(s'|s,a'^*_s )V'(s') - (R(s, a^*_s) + \gamma \sum_{s'}P(s'|s, a^*_s)V(s')) \\
+    \leq& \gamma\norm{V'-V}_\infty
+\end{align*}
+
+What if $(T^*V')(s) < (T^*V)(s)$ instead?
+\begin{shaded}
+First we have:\\
+\begin{align*}
+    (T^*V)(s) := &\max_{a \in A} \big( R(s,a) \big)+ \gamma \sum_{s' \in S}P(s'|s,a)V(s') \\
+(T^*V')(s)-(T^*V)(s) = & \big[ \max_{a \in A} \big( R(s,a) \big)+ \gamma \sum_{s' \in S}P(s'|s,a)V(s')  \big]- \\
+										  & \big[ \max_{a \in A} \big( R(s,a) \big) - \gamma \sum_{s' \in S}P(s'|s,a)V'(s') \big] \\
+									  = & \gamma \sum_{s' \in S}P(s'|s,a)V(s') - \gamma \sum_{s' \in S}P(s'|s,a)V'(s') \\
+									  = & \gamma \sum_{s' \in S}P(s'|s,a) \big(V(s') - V'(s')\big)
+\end{align*}
+Then:
+\begin{align*}
+\forall s \in S,P(s'|s,a) \geq 0, \big(V'(s)-V(s)\big) \leq & \max_{s \in S}\big|V'(s)-V(s)\big|\\
+\forall s \in S, P(s'|s,a) \big( V'(s)-V(s) \big) \leq & P(s'|s,a) \max_{s \in S}\big|V'(s)-V(s)\big| \\
+\sum_{s \in S} \big[ P(s'|s,a) \big( V'(s)-V(s) \big) \big] \leq & \sum_{s \in S} \big[ P(s'|s,a) \max_{s \in S}\big|V'(s)-V(s) \big| \big]\\
+\end{align*}
+Also we have $\sum_{s \in S}P(s'|s,a)=1, 0<\gamma<1$: 
+\begin{align*}
+(T^*V')(s)-(T^*V)(s) = &\gamma \sum_{s' \in S}P(s'|s,a) \big(V(s') - V'(s')\big)\\
+ \leq & \big( \sum_{s \in S}P(s'|s,a) \big) \gamma\max_{s \in S}\big|(T^*V')(s)-(T^*V)(s)\big| \\
+  = & \gamma\max_{s \in S} \big| V'(s)-V(s) \big| \\
+ =  & \gamma\norm{V'-V}_\infty
+\end{align*}
+As choose of $s$ is arbitrary, 
+
+\begin{align*}\norm{T^*V'-T^*V}_\infty\ 
+	= & \max_{s \in S}\big|(T^*V')(s)-(T^*V)(s)\big| \leq  \gamma\norm{V'-V}_\infty \\
+\end{align*}
+
+\end{shaded}
+
+\newpage
+\section{Performance Difference Lemma and Policy Improvement Theorem [25pt]}
+\begin{enumerate}[label=(\alph*)]
+\item Let's first prove a useful lemma, called Performance Difference Lemma: For any policies $\pi, \pi'$, and any state $s\in S$,
+\begin{align*}
+    V^{\pi'}(s) - V^{\pi}(s) = \E_{s'\sim d^{\pi'}_s}[A^\pi(s',\pi')]
+\end{align*}
+where $d^{\pi'}_s$ is the discounted occupancy induced by policy $\pi'$ by starting from state $s$, i.e.
+\begin{align*}
+    d^{\pi'}_s(s') = \sum_{t=0}^\infty \gamma^t\Pr(s_t=s'|s_0=s, \pi')
+\end{align*}
+and $A^\pi(s',\pi')$ is defined as 
+\begin{align*}
+    A^\pi(s',\pi') := \E_{a'\sim\pi'(s')} [Q^\pi(s',a')] - V^\pi(s').
+\end{align*}
+$A^\pi$ is referred to as the advantage function of $\pi$.
+
+\underline{Hint:}
+To prove this lemma, consider a sequence of (possibly non-stationary) policies $\{\pi_i\}_{i\geq0}$, where $\pi_0=\pi$, $\pi_\infty=\pi'$. For any intermediate $i$, $\pi_i$ is the non-stationary policy that follows $\pi'$ for the first $i$ time steps (i.e. time steps $t$ such that $0 \geq t <i$) and then switches to $\pi$ for time steps $t\geq i$, as shown in the figure below comparing of $\pi_{i=1}$ and $\pi_{i=2}$.
+\begin{figure}[h]
+\includegraphics[scale=.7]{assignment1_2.png}
+\centering
+\end{figure}
+
+
+Now we can rewrite the LHS of the statement as:
+\begin{align*}
+   V^{\pi'}(s) - V^{\pi}(s) = \sum_{i=0}^{\infty} (V^{\pi_{i+1}}(s) - V^{\pi_{i}}(s))
+\end{align*}
+For each term $(V^{\pi_{i+1}}(s) - V^{\pi_{i}}(s))$ on the RHS, observe that $\pi_{i+1}$ and  $\pi_{i}$ are both identical to $\pi'$ for the first $i$ time steps, which induces the same state distribution at time step $i$, $\Pr(s_i|s_0=s, \pi')$.
+They are also both identical to $\pi$ starting from state $s_{i+1}$ at time step $i+1$; so conditioned on $(s_i=s, a_i=a)$, the expected total reward for the remainder of the trajectory is $\gamma^i Q^\pi(s,a)$. Therefore, we have
+\begin{align*}
+    V^{\pi_{i+1}}(s) - V^{\pi_{i}}(s) = \gamma^i \sum_{s'}\Pr(s_i=s'|s_0=s, \pi')(\E_{a_i\sim \pi'(s')}[Q^\pi(s',a_i)]-\E_{a_i\sim \pi(s')}[Q^\pi(s',a_i)]).
+\end{align*}
+because the difference between $V^{\pi_{i+1}} - V^{\pi_{i}}$ only starts from $s_i$ at time step $i$, where $\pi_{i+1}$ and $\pi_{i}$ choose action $a_i$ according $\pi'$ and $\pi$, respectively.
+
+\begin{shaded}
+As we have:
+\begin{align*}
+G_t = & \sum_{k=0}^{\infty} \gamma^k r_{t+k+1},Q^{\pi}(s,a) =  \E[G_t | s_t = s,a_t = a,\pi]
+\end{align*}
+
+\begin{align*}
+V^{\pi}(s) = & \E[G_t | s_t = s,\pi ]\\
+				= &  \E[\sum_{k=0}^{\infty} \gamma^k r_{t+k+1} | s_t = s,\pi ] =  \sum_{k=0}^{\infty} \gamma^k \E[ r_{t+k+1} | s_t = s,\pi ] \\
+			= & \sum_{k=0}^{\infty} \gamma^k \sum_{s_t \in S} \sum_{a_t \in A} \E[ r_{t+k+1} | s_t = s,a_t = a,\pi ]\Pr(a_t = a|s_t = s,\pi) \Pr(s_t = s|s_0,\pi)\\
+		   = & \sum_{k=0}^{\infty} \gamma^k  \sum_{s_t \in S} (\E_{a_t\sim \pi(s_t)}[Q^\pi(s,a)]) \Pr(s_t=s|s_0, \pi)
+\end{align*}
+
+Consider a sequence of (possibly non-stationary) policies $\{\pi_i\}_{i\geq0}$, where $\pi_0=\pi$, $\pi_\infty=\pi'$. For any intermediate $i$, $\pi_i$ is the non-stationary policy that follows $\pi'$ for the first $i$ time steps (i.e. time steps $t$ such that $0 \geq t <i$) and then switches to $\pi$ for time steps $t\geq i$. Then we have for any policies $\pi, \pi'$, and any state $s\in S$:\\
+\end{shaded}
+
+\begin{figure}[h]
+\includegraphics[scale=.7]{assignment1_2.png}
+\centering
+\end{figure}
+
+\begin{shaded}
+For each term $(V^{\pi_{i+1}}(s) - V^{\pi_{i}}(s))$, $\pi_{i+1}$ and  $\pi_{i}$ are both identical to $\pi'$ for the first $i$ time steps, which induces the same state distribution at time step $i$, $\Pr(s_i|s_0=s, \pi')$. They are also both identical to $\pi$ starting from state $s_{i+1}$ at time step $i+1$; so conditioned on $(s_i=s, a_i=a)$, the expected total reward for the remainder of the trajectory is $\gamma^i Q^\pi(s,a)$.
+\begin{align*}
+   V^{\pi'}(s) - V^{\pi}(s) = & V^{\pi_{\infty}}(s) - V^{\pi_{0}}(s) =  \sum_{i=0}^{\infty} (V^{\pi_{i+1}}(s) - V^{\pi_{i}}(s))\\
+=  \sum_{i=0}^{\infty} \big( & \sum_{t=0}^{\infty} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi_{i+1}(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi_{i+1}) - \\
+   &\sum_{t=0}^{\infty} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi_{i}(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi_{i})\big)\\
+= \sum_{i=0}^{\infty} \big( & \sum_{t=0}^{i} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi'(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi') + \\
+  & \sum_{t=i+1}^{\infty} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi)-\\
+   &\sum_{t=0}^{i-1} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi'(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi')\big)-\\
+   &\sum_{t=i}^{\infty} \gamma^t  \sum_{s_t \in S} (\E_{a_t\sim \pi(s_t)}[Q^\pi(s',a)]) \Pr(s_t=s'|s_0, \pi)\big)\\
+=\sum_{i=0}^{\infty} \big( & \gamma^i  \sum_{s_i \in S} (\E_{a_i\sim \pi'(s_i)}[Q^\pi(s',a)]) \Pr(s_i=s'|s_0, \pi') - \\
+  &  \gamma^i  \sum_{s_i \in S} (\E_{a_i\sim \pi(s_i)}[Q^\pi(s',a)]) \Pr(s_i=s'|s_0, \pi')  \big)\\
+=\sum_{i=0}^{\infty} & \gamma^i \sum_{s_i \in S} \Pr(s_i=s'|s_0, \pi')  \big(    \E_{a_i\sim \pi'(s_i)}[Q^\pi(s',a)] -  \E_{a_i\sim \pi(s_i)}[Q^\pi(s',a)]  \big)\\
+= \sum_{s_i \in S} & \sum_{i=0}^{\infty} \gamma^i \Pr(s_i=s'|s_0, \pi') \big(    \E_{a_i\sim \pi'(s_i)}[Q^\pi(s',a)] -  V^\pi(s')  \big)
+\end{align*}
+
+Also as:
+\begin{align*}
+    d^{\pi'}_s(s') &= \sum_{t=0}^\infty \gamma^t\Pr(s_t=s'|s_0=s, \pi')\\
+    A^\pi(s',\pi') & := \E_{a'\sim\pi'(s')} [Q^\pi(s',a')] - V^\pi(s')
+\end{align*}
+
+\begin{align*}
+V^{\pi'}(s) - V^{\pi}(s) & = \sum_{s_i \in S} d^{\pi'}_s(s')  \big(  A^\pi(s',\pi') \big)\\
+										& = \E_{s'\sim d^{\pi'}_s}[A^\pi(s',\pi')]\\
+\end{align*}
+
+\end{shaded}
+
+\item Using the performance difference lemma, prove the policy improvement theorem, i.e. prove $V^{\pi_{k+1}}(s) \geq V^{\pi_{k}}(s)$, where $\pi_{k+1}$ and $\pi_{k}$ are consecutive policies in policy iteration.
+\begin{shaded}
+\begin{align*}
+V^{\pi_{k+1}}(s) - V^{\pi_{k}}(s) & =  \gamma^i \sum_{s'}\Pr(s_i=s'|s_0=s, \pi')(\E_{a_i\sim \pi'(s')}[Q^\pi(s',a_i)]-V^\pi(s') )\\
+& = d^{\pi'}_s(s') [A^\pi(s',\pi')]
+\end{align*}
+
+As $A^\pi(s',\pi')$ is defined as the advantage function that alwasy $\geq 0$, $d^{\pi'}_s(s') \geq 0$ as well, we have $V^{\pi_{k+1}}(s) \geq V^{\pi_{k}}(s)$
+\end{shaded}
+\end{enumerate}
+
+
+
+\newpage
+\section{Bounding the Performance of Greedy Policy [25pt]}
+\begin{enumerate}[label=(\alph*)]
+    \item Consider the sequence of iterates, $V_0, V_1,...,V_k,...$, in value iteration, where $V_k = T^* V_{k-1}$.
+    Suppose $\gamma<1$.
+    Since $T^*$ is a contraction, $\norm{V_k-V_{k-1}}_\infty$ decreases as $k$ increases, $\norm{V_k-V_{k-1}}_\infty = \norm{T^*V_{k-1}-T^*V_{k-2}}_\infty \leq \gamma\norm{V_{k-1}-V_{k-2}}_\infty$.
+    Suppose $\norm{V_k-V_{k-1}}_\infty \leq \epsilon$ for some large enough $k$.
+    Show that $\norm{V^*-V_k}_\infty \leq \frac{\epsilon}{1-\gamma}$. In words, if the iterates are close, then they are close to the optimal state-value $V^*$.
+    
+    \underline{Hint:} Pick some integer $n\geq1$, we have 
+    \begin{align*}
+        \norm{V^*-V_k}_\infty =& \norm{V^*-V_{k+n} + V_{k+n} - V_{k+n-1} +...+V_{k+1}-V_k}_\infty \\
+        \leq&  \norm{V^*-V_{k+n}}_\infty + \sum_{i=1}^{n} \norm{V_{k+i}-V_{k+i-1}}_\infty  \qquad \text {(triangle inequality)}
+    \end{align*}
+    \begin{shaded}
+	We have:
+    \begin{align*}
+        \norm{V^*-V_k}_\infty =& \norm{V^*-V_{k+n} + V_{k+n} - V_{k+n-1} +...+V_{k+1}-V_k}_\infty \\
+        \leq&  \norm{V^*-V_{k+n}}_\infty + \sum_{i=1}^{n} \norm{V_{k+i}-V_{k+i-1}}_\infty  \qquad \text {(triangle inequality)}
+    \end{align*}
+	As $\norm{V_k-V_{k-1}}_\infty \leq \epsilon$ for some large enough $k$, also we have $\norm{V_k-V_{k-1}}_\infty = \norm{T^*V_{k-1}-T^*V_{k-2}}_\infty \leq \gamma\norm{V_{k-1}-V_{k-2}}_\infty$
+\begin{align*}
+\norm{V_{k+i}-V_{k+i-1}}_\infty & \leq \gamma \norm{V_{k+i-1}-V_{k+i-2}}_\infty \leq \gamma^2 \norm{V_{k+i-2}-V_{k+i-3}}_\infty \cdots \\
+														& \leq \gamma^{i} \norm{V_{k+i-i}-V_{k+i-i-1}}_\infty = \gamma^{i} \norm{V_{k}-V_{k-1}}_\infty \leq \gamma^{i} \epsilon
+\end{align*}
+\begin{align*}
+        \norm{V^*-V_k}_\infty &\leq \norm{V^*-V_{k+n}}_\infty + \sum_{i=1}^{n} \norm{V_{k+i}-V_{k+i-1}}_\infty\\
+								        &\leq \max_{s \in S}|V^*(s)-V_{k+n}(s)| + \sum_{i=1}^{n} \gamma^{i} \epsilon
+\end{align*}
+
+Also:
+\begin{align*}
+V^*(s) &=  \E[\sum_{n=0}^{\infty} \gamma^k r_{t+n+1} | s_t = s,\pi ] =  \sum_{n=0}^{\infty} \E[\gamma^k r_{t+n+1} | s_t = s,\pi ]\\
+			&=  \sum_{n=0}^{k-1} \E[\gamma^k r_{t+n+1} | s_t = s,\pi ] + \sum_{n=k}^{\infty} \E[\gamma^k r_{t+n+1} | s_t = s,\pi ]\\
+& = C + \sum_{i=1}^{\infty} \norm{V_{k+i}-V_{k+i-1}}_\infty = C + \frac{\epsilon}{1-\gamma}
+\end{align*}
+
+For some constant $C$, and from Cauchy's property, for some large $k$:
+\begin{align*}
+\sum_{n=k}^{\infty} \E[\gamma^k r_{t+n+1} | s_t = s,\pi ] \leq \frac{\epsilon}{1-\gamma}
+\end{align*}
+
+Thus $V^*(s)$ defined as a sum of series converges, we assumed there exist one unique $V^*(s)$ such that $V^*(s) \geq V(s)$, $\forall V \in \mathbb{V}$, and we can always construct a sequence of $V_n$ such that 
+
+\begin{align*}
+ \lim_{n \to \infty}V_n(s) = V^*(s)
+\end{align*}
+
+Thus for that particular sequence of $V_{n}$:
+
+\begin{align*}
+        \lim_{n \to \infty}\norm{V^*-V_k}_\infty &\leq \lim_{n \to \infty} \big[ \max_{s \in S}|V^*(s)-V_{k+n}(s)| + \sum_{i=1}^{n} \gamma^{i} \epsilon \big]\\
+= & \lim_{n \to \infty}  \big[0 + \epsilon \gamma^{i} \big]\\
+= & \frac{\epsilon}{1-\gamma}
+\end{align*}
+\end{shaded}
+    \item Suppose $\norm{V-V^*}_\infty\leq\epsilon$ for some $V\in\mathbb{R}^{|S|}$. Let $\pi$ be the greedy policy with respect to $V$, $\pi(s)=\argmax_a R(s,a) + \gamma  \sum_{s'}P(s'|s,a)V(s')$.
+    Show that  $\norm{V^* -V^\pi}_\infty \leq \frac{2\gamma\epsilon}{1-\gamma}$.
+    
+    Hint: Using the fact that $T^\pi V = T^* V$ since $\pi$ is greedy with respect to $V$, write $\norm{V^* -V^\pi}_\infty = \norm{V^* -T^* V + T^\pi V - V^\pi}_\infty$ and apply the triangle inequality.
+    \begin{shaded}
+\begin{align*}
+ T^\pi V(s) = & \E [ r(s,a = \pi(s)) + \gamma V(s'|s,\pi(s))]\\
+							= &  R(s,\pi(s)) + \gamma \sum_{s'}P^{\pi}_{s,s'}V(s')\\
+							= & \argmax_a R(s,a) + \gamma \sum_{s'}P(s'|s,a)V(s')\\
+						  = &  T^* V(s) 
+\end{align*}
+For some choose of $V$ such that $\norm{V-V^*}_\infty\leq\epsilon$:
+\begin{align*}
+\norm{V^* -V^\pi}_\infty = &\norm{V^* -T^* V + T^\pi V - V^\pi}_\infty\\ 	
+										  = &\max_{s \in S}|V^*(s) -T^* V(s) + T^\pi V(s) - V^\pi(s)|\\
+										  \leq &\max_{s \in S}|T^* V(s)-V^*(s)| + \max_{s \in S}|T^\pi V(s) - V^\pi(s)|
+\end{align*}
+As we have $V^*$ and $T^*$ to be the optimal state value and Bellman operator, we have $T^*V^*=V^*$ that iterates with stationary property. Also for $V^{\pi}$ and $T^{\pi}$ to be the $\pi$ optimal state value and $\pi$ optimal operator which works the same as Bellman operator, we have $T^{\pi}V^{\pi}=V^{\pi}$ holds. As well from the first problem that $\norm{T^*V'-T^*V}_\infty\leq\gamma\norm{V'-V}_\infty$ for any $V,V'\in\mathbb{R}^{|S|}$, thus:
+\begin{align*}
+\norm{V^* -V^\pi}_\infty  \leq &\max_{s \in S}|T^* V(s)-T^*V^*(s)| + \max_{s \in S}|T^\pi V(s) - T^\pi V^\pi(s)|\\
+																		  =&\gamma \max_{s \in S}|V(s)-V^*(s)| + \gamma \max_{s \in S}|V(s) - V^\pi(s)|
+\end{align*}
+
+Similarily as (a) did, we can prove that $\max_{s \in S}|V(s)-V^*(s)| \leq \frac{\epsilon}{1-\gamma}$ and $\max_{s \in S}|V(s)-V^{\pi}(s)| \leq \frac{\epsilon}{1-\gamma}$ for our choose of $V$, thus
+
+\begin{align*}
+\norm{V^* -V^\pi}_\infty  \leq &\gamma \max_{s \in S}|V(s)-V^*(s)| + \gamma \max_{s \in S}|V(s) - V^\pi(s)|\\
+												= & \gamma \frac{\epsilon}{1-\gamma} + \gamma \frac{\epsilon}{1-\gamma} \\
+	= & \frac{2 \gamma \epsilon}{1-\gamma}
+\end{align*}
+
+    \end{shaded}
+\end{enumerate}
+
+
+\newpage
+\section{Frozen Lake MDP [25pt]}
+
+Implement value iteration and policy iteration for the Frozen Lake environment
+from \href{"https://gym.openai.com/envs/FrozenLake-v0"}{OpenAI Gym}. We have provided
+custom versions of this environment in the starter code in folder \texttt{assignment1\_coding}.
+
+Make sure you use Python 3 and have installed the dependencies in \texttt{requirements.txt}.
+
+This problem is credited to Emma Brunskill.
+
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{(coding)} Read through \texttt{vi\_and\_pi.py} and implement \texttt{policy\_evaluation}, \texttt{policy\_improvement} and \texttt{policy\_iteration}. The stopping tolerance (defined as $\max_s |V_{old}(s) - V_{new}(s)|$) is tol = $10^{-3}$. Use $\gamma = 0.9$. Return the optimal value function and the optimal policy.
+\item \textbf{(coding)} Implement \texttt{value\_iteration} in \texttt{vi\_and\_pi.py}. The stopping tolerance is tol =
+$10^{-3}$. Use $\gamma = 0.9$. Return the optimal value function and the optimal policy.
+\item \textbf{(written)} Run both methods on the Deterministic-4x4-FrozenLake-v0 and Stochastic-4x4-FrozenLake-v0 environments. In the second environment, the dynamics of the world are stochastic. How does stochasticity affect the number of iterations required, and the resulting policy?
+\begin{shaded}
+
+	 (a) policy iteration:
+			value function:  [0.59  0.656 0.729 0.656 0.531 0.    0.81  0.    0.478 0.    0.9   0. 0.    0.    1.    0.   ]
+			policy: [2 2 1 0 3 3 1 3 3 2 1 3 3 2 2 3]
+		
+	 (b) value iteration:
+		  value function: [0.59  0.656 0.729 0.656 0.656 0.    0.81  0.    0.729 0.81  0.9   0.  0.    0.9   1.    0.   ]
+		   policy: [1 2 1 0 1 0 1 0 2 1 1 0 0 2 2 0]
+    (c)  The value iteration method converges faster, as policy evaluation takes time to simulate data.
+		   When changing to Stochastic iteration method, it takes much more time to converge for both methods, even can not converge. Reducing the tolerance could lead to converage but with chances that can not find the Goal point.
+\end{shaded}
+
+\end{enumerate}
+
+
+\end{document}
